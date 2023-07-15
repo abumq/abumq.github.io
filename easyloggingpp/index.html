@@ -76,15 +76,15 @@
 </span>
 <span style="float:right">
 <span class="social-media-buttons">
-<div class="fb-like" data-href="https://facebook.com/MuflihunDotCom" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div> &nbsp;|&nbsp;
+<div class="fb-like" data-href="https://facebook.com/amraynofficial" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div> &nbsp;|&nbsp;
 <span>
-<a href="//www.facebook.com/MuflihunDotCom" target="_blank"><i style="font-size:2em;padding-right:5px" class="fa fa-facebook"></i></a>
+<a href="https://www.twitter.com/abumq0" target="_blank"><i style="font-size:2em;padding-right:5px" class="fa fa-twitter"></i></a>
 </span>
 <span>
-<a href="//www.twitter.com/MuflihunDotCom" target="_blank"><i style="font-size:2em;padding-right:5px" class="fa fa-twitter"></i></a>
+<a href="https://www.linkedin.com/in/abumq" target="_blank"><i style="font-size:2em;padding-right:5px" class="fa fa-linkedin"></i></a>
 </span>
 <span>
-<a href="https://github.com/muflihun/"><i style="font-size:2em" class="fa fa-github"></i></a>
+<a href="https://github.com/abumq/"><i style="font-size:2em" class="fa fa-github"></i></a>
 </span>
 </span>
 <span id="githubStars" style="cursor:default; font-weight: bold">
@@ -133,14 +133,14 @@ refreshStargazersSpan = function() {
     // loadUsers(stargazers);
 
     $("#githubStars").click(function() {
-        window.location.href = 'https://github.com/muflihun/easyloggingpp/stargazers';
+        window.location.href = 'https://github.com/abumq/easyloggingpp/stargazers';
     });
 }
 
 updateStargazers = function(page, target, repo) {
     if (page == undefined || page == null) page = 1;
     if (repo == undefined || repo == null) repo = 'easyloggingpp';
-    var apiUrl = 'https://api.github.com/repos/muflihun/' + repo + '/stargazers?page=' + page + '&per_page=100'
+    var apiUrl = 'https://api.github.com/repos/abumq/' + repo + '/stargazers?page=' + page + '&per_page=100'
     var total = 0;
     
     $.ajax({
@@ -170,13 +170,13 @@ $(document).ready(function() {
        var link;
        switch (oper) {
        case 'd':
-           link = "https://github.com/easylogging/easyloggingpp/releases/download/v" + ver + "/easyloggingpp_v" + ver + ".zip";
+           link = "https://github.com/abumq/easyloggingpp/releases/download/v" + ver + "/easyloggingpp_v" + ver + ".zip";
            break;
        case 'm':
-           link = "https://github.com/easylogging/easyloggingpp/blob/" + ver + "/README.md";
+           link = "https://github.com/abumq/easyloggingpp/blob/" + ver + "/README.md";
            break;
        case 's':
-           link = "https://github.com/easylogging/easyloggingpp/blob/" + ver + "/samples";
+           link = "https://github.com/abumq/easyloggingpp/blob/" + ver + "/samples";
            break;
        }
        if (link != undefined) {
@@ -186,11 +186,11 @@ $(document).ready(function() {
 }); 
 </script>
 <br/><br/>
-<a class='right-link' href="https://travis-ci.org/muflihun/easyloggingpp"><img class="travis-build" src="https://img.shields.io/travis/muflihun/easyloggingpp/master.svg"/></a>
+<a class='right-link' href="https://travis-ci.org/abumq/easyloggingpp"><img class="travis-build" src="https://img.shields.io/travis/abumq/easyloggingpp/master.svg"/></a>
 <br/><br/>
-<a class="right-link" href="https://www.paypal.me/MuflihunDotCom/25" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" border="0" name="submit" alt="Donate using PayPal" title="Support Us"></a>
+<a class="right-link" href="https://www.paypal.me/mkhan/25" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" border="0" name="submit" alt="Donate using PayPal" title="Support Us"></a>
 <br/><br/>
-<a class='right-link' href="https://github.com/muflihun/easyloggingpp/releases/latest"><img class="download count" src="https://img.shields.io/github/downloads/muflihun/easyloggingpp/total.svg"/></a>
+<a class='right-link' href="https://github.com/abumq/easyloggingpp/releases/latest"><img class="download count" src="https://img.shields.io/github/downloads/abumq/easyloggingpp/total.svg"/></a>
 </span>
 <script type="text/javascript">
 $(document).ready(function() {
@@ -208,11 +208,11 @@ The strengths of Easylogging++ are its speed and simplicity. It is extremely lig
 <td width="50%">
 <pre class='Code'><center><table class='Title'><tr><td align=center>Simple Example</td></tr></table></center><table><tr><td><table border=0><tr id='ecaa-line1-c'><td align='left'><font size=2><a name='ecaa-line1'>&nbsp;</a></font><tr id='ecaa-line2-c'><td align='left'><font size=2><a name='ecaa-line2'>&nbsp;&nbsp;&nbsp;&nbsp;<span class='Keyword'>#include</span>&nbsp;<span class='String'>&quot;easylogging++.h&quot;</span></a></font><tr id='ecaa-line3-c'><td align='left'><font size=2><a name='ecaa-line3'>&nbsp;</a></font><tr id='ecaa-line4-c'><td align='left'><font size=2><a name='ecaa-line4'>&nbsp;&nbsp;&nbsp;&nbsp;INITIALIZE_EASYLOGGINGPP</a></font><tr id='ecaa-line5-c'><td align='left'><font size=2><a name='ecaa-line5'>&nbsp;</a></font><tr id='ecaa-line6-c'><td align='left'><font size=2><a name='ecaa-line6'>&nbsp;&nbsp;&nbsp;&nbsp;<span class='Keyword'>int</span>&nbsp;main<span id='braceecaa-6-13' onmouseover='javascript:highlightBrace("braceecaa-6-13-end");highlightBrace("braceecaa-6-13")' onmouseout='javascript:normalizeBrace("braceecaa-6-13");normalizeBrace("braceecaa-6-13-end")'>(</span><span class='Keyword'>int</span>&nbsp;argc,&nbsp;<span class='Keyword'>const</span>&nbsp;<span class='Keyword'>char</span>**&nbsp;argv<span id='braceecaa-6-13-end' onmouseover='javascript:highlightBrace("braceecaa-6-13-end");highlightBrace("braceecaa-6-13")' onmouseout='javascript:normalizeBrace("braceecaa-6-13");normalizeBrace("braceecaa-6-13-end")'>)</span>&nbsp;<span id='braceecaa-6-43' onmouseover='javascript:highlightBrace("braceecaa-6-43-end");highlightBrace("braceecaa-6-43")' onmouseout='javascript:normalizeBrace("braceecaa-6-43");normalizeBrace("braceecaa-6-43-end")'>{</span></a></font><tr id='ecaa-line7-c'><td align='left'><font size=2><a name='ecaa-line7'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LOG<span id='braceecaa-7-12' onmouseover='javascript:highlightBrace("braceecaa-7-12-end");highlightBrace("braceecaa-7-12")' onmouseout='javascript:normalizeBrace("braceecaa-7-12");normalizeBrace("braceecaa-7-12-end")'>(</span>INFO<span id='braceecaa-7-12-end' onmouseover='javascript:highlightBrace("braceecaa-7-12-end");highlightBrace("braceecaa-7-12")' onmouseout='javascript:normalizeBrace("braceecaa-7-12");normalizeBrace("braceecaa-7-12-end")'>)</span>&nbsp;&lt;&lt;&nbsp;<span class='String'>&quot;Hello,&nbsp;world&quot;</span>;</a></font><tr id='ecaa-line8-c'><td align='left'><font size=2><a name='ecaa-line8'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class='Keyword'>return</span>&nbsp;<span class='Number'>0</span>;</a></font><tr id='ecaa-line9-c'><td align='left'><font size=2><a name='ecaa-line9'>&nbsp;&nbsp;&nbsp;&nbsp;<span id='braceecaa-6-43-end' onmouseover='javascript:highlightBrace("braceecaa-6-43-end");highlightBrace("braceecaa-6-43")' onmouseout='javascript:normalizeBrace("braceecaa-6-43");normalizeBrace("braceecaa-6-43-end")'>}</span></a></font></font></td></tr></table></td></tr></table></pre></td>
 <td width="50%">
-<a href='https://github.com/muflihun/easyloggingpp/releases/latest' class='big-link'><img src='/easyloggingpp/images/download.png'/>&nbsp;Download Easylogging++</a><br/>
-<a href='https://github.com/muflihun/easyloggingpp/blob/master/CHANGELOG.md' class='big-link'><img src='/easyloggingpp/images/notes.png'/>&nbsp;Changelog</a><br/>
-<a href='https://github.com/muflihun/easyloggingpp/blob/master/README.md' class='big-link'><img src='/easyloggingpp/images/help.png'/>&nbsp;Manual</a><br/>
-<a href='https://github.com/muflihun/easyloggingpp' class='big-link'><img src='/easyloggingpp/images/github.png'/>&nbsp;Source @ Github</a><br/>
-<a href='https://github.com/muflihun/easyloggingpp/tree/master/samples' class='big-link'><img src='/easyloggingpp/images/sample.png'/>&nbsp;Samples</a><br/>
+<a href='https://github.com/abumq/easyloggingpp/releases/latest' class='big-link'><img src='/easyloggingpp/images/download.png'/>&nbsp;Download Easylogging++</a><br/>
+<a href='https://github.com/abumq/easyloggingpp/blob/master/CHANGELOG.md' class='big-link'><img src='/easyloggingpp/images/notes.png'/>&nbsp;Changelog</a><br/>
+<a href='https://github.com/abumq/easyloggingpp/blob/master/README.md' class='big-link'><img src='/easyloggingpp/images/help.png'/>&nbsp;Manual</a><br/>
+<a href='https://github.com/abumq/easyloggingpp' class='big-link'><img src='/easyloggingpp/images/github.png'/>&nbsp;Source @ Github</a><br/>
+<a href='https://github.com/abumq/easyloggingpp/tree/master/samples' class='big-link'><img src='/easyloggingpp/images/sample.png'/>&nbsp;Samples</a><br/>
 </td>
 </tr>
 <tr>
@@ -244,8 +244,8 @@ It's very likely that other platforms, that are not listed above, are also suppo
 <center>
 <br/>
 <br/>
-<a href="https://github.com/abumq/easyloggingpp/blob/master/LICENCE">Licence</a>&nbsp;|&nbsp;
-<a href="https://github.com/abumq/">Github</a>&nbsp;|&nbsp;
+<a href="https://github.com/abumq">My Github</a>&nbsp;|&nbsp;
+<a href="https://linkedin.com/in/abumq">LinkedIn</a>
 <br/>
 <br/>
 This is open source site <a href="https://github.com/abumq/abumq.github.io/tree/master/easyloggingpp">hosted on github</a>
