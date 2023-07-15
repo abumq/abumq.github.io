@@ -71,24 +71,29 @@
     }
 </script>
 <div class="contents">
-<span>
-<a href="/easyloggingpp"><img src="/easyloggingpp/images/banner.png" class="banner"/></a>
-</span>
-<span style="float:right">
-<a href="https://www.twitter.com/abumq0" target="_blank"><i style="font-size:2em;padding-right:5px" class="fa fa-twitter"></i></a>
-</span>
-<span>
-<a href="https://www.linkedin.com/in/abumq" target="_blank"><i style="font-size:2em;padding-right:5px" class="fa fa-linkedin"></i></a>
-</span>
-<span>
-<a href="https://github.com/abumq/"><i style="font-size:2em" class="fa fa-github"></i></a>
-</span>
-</span>
-<span id="githubStars" style="cursor:default; font-weight: bold">
-</span>
-&nbsp;
-<span style="position:absolute; background: #F8F8F8" id="githubStarsUser">
-</span>
+    <span>
+        <a href="/easyloggingpp"><img src="/easyloggingpp/images/banner.png" class="banner"/></a>
+    </span>
+    <div style="float:right">
+        <span>
+            <a href="https://www.twitter.com/abumq0" target="_blank"><i style="font-size:2em;padding-right:5px" class="fa fa-twitter"></i></a>
+        </span>
+        <span>
+            <a href="https://www.linkedin.com/in/abumq" target="_blank"><i style="font-size:2em;padding-right:5px" class="fa fa-linkedin"></i></a>
+        </span>
+        <span>
+            <a href="https://github.com/abumq/"><i style="font-size:2em" class="fa fa-github"></i></a>
+        </span>
+        <select id="verOper">
+            <option>Old Version</option>
+            <optgroup label='v9.89'><option value='9.89-d'>Download</option><option value='9.89-m'>Manual</option><option value='9.89-s'>Samples</option></optgroup><optgroup label='v8.91'><option value='8.91-d'>Download</option><option value='8.91-m'>Manual</option><option value='8.91-s'>Samples</option></optgroup>
+        </select>
+    </div>
+    <span id="githubStars" style="cursor:default; font-weight: bold">
+    </span>
+    &nbsp;
+    <span style="position:absolute; background: #F8F8F8" id="githubStarsUser">
+    </span>
 <style>.github_user:hover{background-color:lightgreen;}.github_avatar{vertical-align:middle;}</style>
 <script type="text/javascript">
 var stargazers = new Array();
@@ -154,9 +159,7 @@ updateStargazers = function(page, target, repo) {
     });
 };
 </script>
-<select id="verOper">
-<option>Old Version</option>
-<optgroup label='v9.89'><option value='9.89-d'>Download</option><option value='9.89-m'>Manual</option><option value='9.89-s'>Samples</option></optgroup><optgroup label='v8.91'><option value='8.91-d'>Download</option><option value='8.91-m'>Manual</option><option value='8.91-s'>Samples</option></optgroup></select>
+
 <script type="text/javascript">
 $(document).ready(function() {
    $("#verOper").change(function() {
